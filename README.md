@@ -1,10 +1,12 @@
 # covid-ct
 <br>
 <center><b>About</b></center>
+<br>
 This repository contains a deep convolutional network trained on CT data for the binary classification of COVID/Non-COVID.  <i>Transfer learning</i> was used here, where I utilized a pre-trained COVID-Net model (see https://arxiv.org/abs/2003.09871v1), and fine-tuned the parameters of the network using the training set.  After selecting the best performing model on the validation set, the performance was quantified using three metrics: accuracy, F1-score, and the area under the ROC curve.
 
 <br>
 <center><b>Requirements</b></center>
+<br>
 This code was run on a linux device equipped with the following packages:
 <ul>
   <li>Python               3.7.5</li>
@@ -19,7 +21,7 @@ I expect that any collection of recently updated Python modules + Tensorflow 1.1
 
 <br>
 <center><b>Usage</b></center>
-
+<br>
 <ol>
   <li>Clone this repository on your local device</li>
   <li>Unzip the training and validation data sets, keep them in their respective directories </li>
@@ -36,6 +38,7 @@ I expect that any collection of recently updated Python modules + Tensorflow 1.1
  
  <br>
  <center><b>Results</b></center>
+ <br>
 The model's performance on three metrics of interest here are as follows.
 
 <ul>
