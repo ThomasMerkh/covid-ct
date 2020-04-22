@@ -7,6 +7,7 @@ This repository contains a deep convolutional network trained on CT data for the
 <br>
 <center><b>Requirements</b></center>
 <br>
+
 This code was run on a linux device equipped with the following packages:
 <ul>
   <li>Python               3.7.5</li>
