@@ -5,7 +5,17 @@ This repository contains a deep convolutional network trained on CT data for the
 
 <br>
 <center><b>Requirements</b></center>
-*To be updated 
+This code was run on a linux device equipped with the following packages:
+<ul>
+  <li>Python               3.7.5</li>
+  <li>numpy                1.18.2</li>  
+  <li>opencv-python        4.2.0.34</li>       
+  <li>scikit-learn         0.22.2.post1</li>
+  <li>scipy                1.4.1</li>
+  <li>tensorflow           1.15.0</li>  
+</ul>
+
+I expect that any collection of recently updated Python modules + Tensorflow 1.15 will be able to run these scripts without issue.
 
 <br>
 <center><b>Usage</b></center>
@@ -26,4 +36,15 @@ This repository contains a deep convolutional network trained on CT data for the
  
  <br>
  <center><b>Results</b></center>
- *To be updated
+The model's performance on three metrics of interest here are as follows.
+
+<ul>
+<li>Prediction Accuracy:  Non-COVID - 99%, COVID - 93.9%</li>
+<li>The F1-Score: 0.9674 </li>
+<li>The AUC: 0.9646 </li>
+</ul>                        	
+<br>
+
+<br> 
+For any questions or concerns:
+*tmerkh@g.ucla.edu
