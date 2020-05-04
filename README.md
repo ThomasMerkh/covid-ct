@@ -53,4 +53,4 @@ The model's performance on three metrics of interest here are as follows.
 For any questions or concerns:
 *tmerkh@g.ucla.edu
 
-Last, code to continue training the model listed here is throwing errors.  It will be fixed and uploaded as soon as possible.
+Last, code to continue training the model listed here is throwing some weird tensrflow error I have yet to figure out.  It will be fixed and uploaded as soon as possible. 
