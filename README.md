@@ -52,3 +52,5 @@ The model's performance on three metrics of interest here are as follows.
 <br> 
 For any questions or concerns:
 *tmerkh@g.ucla.edu
+
+Last, code to continue training the model listed here is throwing errors.  It will be fixed and uploaded as soon as possible.
